@@ -1,3 +1,16 @@
+# Weather map API client
+## Project Struture
+
+```
+--------------------------         -----------------------------          --------------------------
+|                        |         |                           |          |                        |
+| TestCo.Weather.Console | ------> |      TestCo.Weather       | --http-> |     WeatherMap API     |
+|       (test ui)        |         |        (App logic)        |          |                        |
+--------------------------         -----------------------------          --------------------------
+```
+
+## Output
+```
 Days when Temperature is 20 and above
 ---------------------------------------
 18 April 2019  27.31
@@ -14,3 +27,4 @@ Sunny days
 20 April 2019 Clear 23.85
 21 April 2019 Clear 23.26
 ---------------------------------------
+```
